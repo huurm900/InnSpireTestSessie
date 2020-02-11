@@ -1,6 +1,6 @@
 {
   "ignoreTestFiles": [
-    "**/antwoord/*"
+    "**/*antwoord.js"
   ]
   
   }

@@ -1,0 +1,67 @@
+## Requirements ⚙️
+
+- Een computer: Mac, Windows, Linux
+- [Node 8+](https://nodejs.org/)
+- [git](https://git-scm.com)
+- [Visual Studio Code] (https://code.visualstudio.com/)
+
+In order to get the code and install dependencies
+
+```bash
+git clone https://github.com/huurm900/InnSpireTestSessie.git
+cd InnSpireTestSessie
+npm install
+```
+
+If necessary, install dependencies inside TodoMVC folder
+```bash
+cd \InnSpire-tutorial
+NPX serve
+ http://localhost:5000
+```
+
+
+```bash
+cd todomvc
+npm install
+npm start
+```
+
+### Quick check ✅
+
+and you should see in the terminal
+
+```text
+> json-server --static . data.json --middlewares ./node_modules/json-server-reset
+
+
+  \{^_^}/ hi!
+
+  Loading data.json
+  Loading ./node_modules/json-server-reset
+  Done
+
+  Resources
+  http://localhost:3000/todos
+
+  Home
+  http://localhost:3000
+```
+
+From the second terminal window you should be able to open Cypress in the root of the project with
+
+```bash
+$ npm run cy:open
+
+```
+
+
+
+
+## Additional information 🗃
+
+- https://www.cypress.io/
+- https://docs.cypress.io/
+- https://docs.cypress.io/api/api/table-of-contents.html
+
+

@@ -12,7 +12,6 @@
   "author": "Henk Huurman",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^4.0.1"
+    "cypress": "^4.1.0"
   }
-   
 }
